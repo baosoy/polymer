@@ -1,4 +1,4 @@
-import { Box, OrbitControls, Plane, Sparkles } from "@react-three/drei";
+import { Box } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import * as THREE from "three";
 import { animated, useSpring } from "@react-spring/three";
@@ -6,7 +6,7 @@ import useStore from "../state/store";
 
 const Background = () => {
   return (
-    <div className="w-full h-screen fixed top-0 left-0 opacity-50">
+    <div className="w-full h-screen fixed top-0 left-0 opacity-25">
       <Canvas
         camera={{
           position: [1.0798102224990016, 4.7193683979334, 1.249630502917676],
