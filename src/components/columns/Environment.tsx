@@ -82,8 +82,8 @@ const Environment = () => {
               <button
                 className={[
                   "focus:outline-none",
-                  "flex-1 py-2 bg-white rounded-l-lg border-r hover:bg-lime-100",
-                  !selected ? "bg-gray-50" : "bg-white",
+                  "flex-1 py-2 hover:bg-lime-100",
+                  !selected ? "bg-gray-100" : "bg-white",
                 ].join(" ")}
               >
                 City
