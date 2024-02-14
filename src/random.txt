@@ -1,4 +1,0 @@
-I'm looking to build a TypeScript function for calculating demand in a game. There are a few key factors which impact the demand: air quality, price, and marketing efforts.
-
-The starting price should be 5, and the demand should exponentially increase as the price decreases. The minimum price should be 0.1. The demand should exponentially decrease as the air quality result increases. And the demand should increase exponentially as marketing efforts increase.
-
