@@ -53,7 +53,11 @@ const Environment = () => {
       <div>
         <ColumnInnerTitle title="Current Environment" />
         <div className="flex gap-1 items-center mb-4">
-          <span className="text-sm">{store.environment.city}</span>
+          <span className="text-sm">
+            {store.environment.local
+              ? "London, UK (Enviro Urban)"
+              : store.environment.city}
+          </span>
         </div>
       </div>
       <Tab.Group
